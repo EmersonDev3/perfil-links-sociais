@@ -1,0 +1,69 @@
+/* ----- Reset ----- */
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* ----- card ----- */
+
+.card{
+    width: 400px;
+    height: 650px;
+    background-color:hsl(0, 0%, 8%);
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.card-Jessica{
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    margin-top: 20px;
+}
+
+.card-London{
+    color:hsl(75, 94%, 57%);
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 13px;
+}
+
+.card-front{
+    color: white;
+    font-size: 15px;
+}
+
+.card-navegation{
+    height: 40px;
+    width: 320px;
+    background-color:  hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+}
